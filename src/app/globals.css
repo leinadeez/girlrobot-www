@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+body {
+  color: var(--color-foreground);
+  background: var(--color-background);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  @media (min-width: 1000px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  h1 { font-size: 1.8rem; font-weight: bold; margin-bottom: -1rem; @media (min-width: 1000px) { font-size: var(--font-h1); } }
+  h2 { font-size: var(--font-h2); font-weight: bold; }
+  h3 { font-size: var(--font-h3); font-weight: bold; }
+  p  { padding-bottom: 0.5rem; }
+  .wrapper { width: 100%; }
+  a  { color: var(--color-accent); text-decoration: underline; }
+}
+
+@keyframes marquee-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes numitron-flicker {
+  0%, 94%, 96%, 100% { opacity: 1; }
+  95% { opacity: 0.75; }
+}
+
+body[data-theme="stars"] header,
+body[data-theme="stars"] nav,
+body[data-theme="stars"] section,
+body[data-theme="hexcorp"] header,
+body[data-theme="hexcorp"] nav,
+body[data-theme="hexcorp"] section,
+body[data-theme="hexfire"] header,
+body[data-theme="hexfire"] nav,
+body[data-theme="hexfire"] section,
+body[data-theme="cubes"] header,
+body[data-theme="cubes"] nav,
+body[data-theme="cubes"] section,
+body[data-theme="saopaulo"] header,
+body[data-theme="saopaulo"] nav,
+body[data-theme="saopaulo"] section {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+body[data-theme="candy"] {
+  --color-foreground: #1a1a1a;
+  --color-background: #f0eef4;
+}
+
+body[data-theme="candy"] header,
+body[data-theme="candy"] nav,
+body[data-theme="candy"] section {
+  background: rgba(255, 255, 255, 0.82);
+}
+
+body[data-theme="candy"] .numitron-display {
+  background: rgba(220, 215, 200, 0.8) !important;
+}
+
+body[data-theme="frutiger"] .wrapper {
+  background: transparent;
+}
+
+body[data-theme="frutiger"] [class~="border"],
+body[data-theme="frutiger"] header,
+body[data-theme="frutiger"] nav,
+body[data-theme="frutiger"] section,
+body[data-theme="candy"] [class~="border"],
+body[data-theme="candy"] header,
+body[data-theme="candy"] nav,
+body[data-theme="candy"] section {
+  border-radius: 16px;
+}
+
+body[data-theme="frutiger"] [class~="border"],
+body[data-theme="frutiger"] header,
+body[data-theme="frutiger"] nav,
+body[data-theme="frutiger"] section {
+  background: rgba(0, 15, 40, 0.80);
+}
