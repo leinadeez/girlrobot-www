@@ -12,8 +12,8 @@ importers:
         specifier: ^1.9.2
         version: 1.9.2
       '@leinadeez/ui-nicorn':
-        specifier: ^1.0.4
-        version: 1.0.4(framer-motion@12.40.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        specifier: ^1.0.5
+        version: 1.0.5(framer-motion@12.40.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@next/third-parties':
         specifier: ^16.2.6
         version: 16.2.6(next@16.2.6(@babel/core@7.29.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(sass@1.100.0))(react@19.2.6)
@@ -406,8 +406,8 @@ packages:
   '@leinadeez/not-my-types@1.9.2':
     resolution: {integrity: sha512-bmxLcSqpsJIEvvk7RBgMLTkG9B+LNrA4RSWQxI2zU6Jcf5bAs5Ir2WdcWsiuE5PMBM24D/h03YwkYFTOay4Ovg==, tarball: https://npm.pkg.github.com/download/@leinadeez/not-my-types/1.9.2/4fbd75f6641a72e52bbaf013dbf075c053ab79b3}
 
-  '@leinadeez/ui-nicorn@1.0.4':
-    resolution: {integrity: sha512-zkekuVRPchwam8kKryPNapId2XdZPwQFazVCLwv/FNeYayM7QqEKJ7Z/XVYu9GgmWbwed7mR1wCCCHWO75djcA==, tarball: https://npm.pkg.github.com/download/@leinadeez/ui-nicorn/1.0.4/f9c7668afc98208aee0d01798581bd0f9ba05964}
+  '@leinadeez/ui-nicorn@1.0.5':
+    resolution: {integrity: sha512-O0OWblkgz9X9tM2QEOOn5fZVqHI43R6RwaDY6rxFuSZO2KKIwew/cS2J/+QGQHqaXdpFdMyGUsTWZow/O5UOzw==, tarball: https://npm.pkg.github.com/download/@leinadeez/ui-nicorn/1.0.5/7d6e327f00efbfae0fd78040b4e183439ebb828c}
     peerDependencies:
       framer-motion: '>=11'
       react: '>=18'
@@ -2743,7 +2743,7 @@ snapshots:
 
   '@leinadeez/not-my-types@1.9.2': {}
 
-  '@leinadeez/ui-nicorn@1.0.4(framer-motion@12.40.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@leinadeez/ui-nicorn@1.0.5(framer-motion@12.40.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
     dependencies:
       '@leinadeez/not-my-types': 1.9.2
       framer-motion: 12.40.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6)

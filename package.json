@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@leinadeez/not-my-types": "^1.9.2",
-    "@leinadeez/ui-nicorn": "^1.0.4",
+    "@leinadeez/ui-nicorn": "^1.0.5",
     "@next/third-parties": "^16.2.6",
     "@tailwindcss/postcss": "^4.3.0",
     "@types/three": "^0.184.1",
